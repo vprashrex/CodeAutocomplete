@@ -18,7 +18,7 @@ python download_model.py
 Now run the script
 
 ```sh
-uvicorn server:app --reload
+python inference.py
 ```
 
 # Run using Docker
