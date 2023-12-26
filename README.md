@@ -1,4 +1,4 @@
-### Model A --> CodeCompletion Model [Starcoder]
+### Model C --> CodeCompletion Model [WizardCoder3b]
 
 ## Setup
 
@@ -24,9 +24,9 @@ uvicorn server:app --reload
 # Run using Docker
 
 ```sh
-docker build -t modelA .
+docker build -t modelC .
 ```
 
 ```sh
-docker run -it modelA
+docker run -it modelC
 ```
