@@ -24,9 +24,9 @@ uvicorn server:app --reload
 # Run using Docker
 
 ```sh
-docker build -t modelA .
+docker build -t modelB .
 ```
 
 ```sh
-docker run -it modelA
+docker run -it modelB
 ```
